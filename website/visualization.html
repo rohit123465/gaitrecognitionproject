@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gait Recognition Visualizations</title>
+    <link rel="stylesheet" href="/static/visualization.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="/home">Home</a>
+            <a href="/visualizations">Visualizations</a>
+        </div>
+        <div class="nav-right">
+            AI-Driven Biometric Gait Identification
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Gait Recognition Visualizations</h2>
+
+        <div class="visualization-section">
+            <h3>3D Gait Mesh Visualization</h3>
+            <div id="videoContainer" class="visualization-container">
+                <div id="gait3DModel" class="visualization-container">
+                    <p>Click the button below to download the 3D mesh.</p>
+                    <button id="downloadVideoBtn">Download Video</button>
+            </div>
+        </div>
+
+        <div class="visualization-section">
+            <h3>Gait Data Animations</h3>
+            <div id="gaitAnalysis" class="visualization-container">
+                <div id="gait3DModel" class="visualization-container">
+                    <p>Click the button below to download the animation of extracted gait data.<p>
+                    <button id="downloadAnimationBtn">Download Animation</button>
+            </div>
+        </div>
+
+        <div class="visualization-section">
+            <h3>Gait Identification Results</h3>
+            <div id="metrics" class="visualization-container">
+                <p>Gait Recognition Results will be displayed here.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/static/visualization.js"></script>
+</body>
+</html>
